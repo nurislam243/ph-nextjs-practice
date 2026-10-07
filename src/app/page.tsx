@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function HomePage() {
   return (
-    <div className="p-8">
+    <div className="py-8 max-w-300 mx-auto">
       <h1 className="text-3xl font-bold mb-4">
         Welcome to Next.js Multi-Page Practice!{" "}
       </h1>

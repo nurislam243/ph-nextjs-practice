@@ -17,7 +17,7 @@ export default function RootLayout({
       <body className="font-sans m-0 p-0">
         {/* Header section */}
         <header className="bg-[#333] p-4 color-white text-white">
-          <nav className="flex gap-3.75">
+          <nav className="flex gap-3.75 max-w-300 mx-auto">
             <Link href="/" className="text-white no-underline hover:underline">
               Home
             </Link>
